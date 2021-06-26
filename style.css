@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1,h3{
+    font-family:monospace;
+}
+h2{
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#f52f2f;
+}
+main{
+    min-height: 100vh;
+    background:linear-gradient(45deg,rgb(92, 172, 238),white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    min-height: 80vh;
+    width: 60%;
+    border-radius: 1rem;
+    background:linear-gradient(150deg,rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.4));
+    display: flex;
+}
+.img_haha{
+    width: 100px;
+    height: 100px;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background:linear-gradient(145deg,rgba(247, 219, 219,0.5),rgba(255, 255, 255,0.5));    
+    border-radius: 1rem;
+}
+.link{
+    display: flex;
+    align-items: center;
+    padding: 10px 1px;
+}
+.link h2{
+    padding: 0rem 2rem;
+}
+.blog{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.blog h1{
+    text-align:center;
+}
+.card{
+    display:flex;
+    border-radius:2rem;
+    box-shadow:6px 6px 20px ;
+    padding:1rem;
+    margin:2rem 0;
+    align-items: center;
+}
+.card-info{
+    padding:0 1rem;
+}
+.read-more{
+    display: flex;
+    align-items: center;
+}
+.read-more p{
+    color: gray;
+}
+.read-more i{
+    color: rgba(252, 0, 0, 0.973);
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.link:hover{
+    transform: rotate(-45deg);
+    color: tomato;
+}
